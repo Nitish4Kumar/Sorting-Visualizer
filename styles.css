@@ -1,0 +1,45 @@
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fefefe;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    display: -ms-inline-grid;
+}
+
+.controls {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+#startButton{
+    background-color: green;
+}
+#stopButton{
+    background-color: rgb(251, 8, 4);
+}
+
+#sortMethod{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+select {
+    padding: 10px;
+    font-size: 16px;
+}
+
+canvas {
+    border: 2px solid #000;
+    border-radius: 5px;
+}
